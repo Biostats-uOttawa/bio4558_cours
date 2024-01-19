@@ -35,6 +35,20 @@
     "text": "Semaine\nSujet\nDiapos\nLabos\n\n\n\n\n0\n…\n…\n…"
   },
   {
+    "objectID": "dataset.html",
+    "href": "dataset.html",
+    "title": "Données et code",
+    "section": "",
+    "text": "Toutes les données dans un fichier zip"
+  },
+  {
+    "objectID": "dataset.html#données",
+    "href": "dataset.html#données",
+    "title": "Données et code",
+    "section": "Données",
+    "text": "Données\n\nage.csv\nanc1dat.csv\nanc3dat.csv\nBiston_pd_1.csv\nBiston_pd_2.csv\nBiston_student.csv\nDam10dat.csv\ndragons.csv\nErablesGatineau.csv\nhypoxia.uottawa.csv\nJacobsenDangles_1.csv\nJacobsenDangles_2.csv\nloglin.csv\nMregdat.csv\nnematodes.csv\nnestdat.csv\nnr2wdat.csv\nsalmonella.csv\nsimulies.csv\nsimuliidae.csv\nskulldat_2020.csv\nskulldat-rm.csv\nStu2mdat.csv\nStu2wdat.csv\nsturgdat.csv\nsturgeon.csv\nUSPopSurvey.csv\nwmc2dat2.csv\nwmcdat2.csv"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Biostatistiques appliquées avec R",
