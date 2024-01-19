@@ -26,12 +26,12 @@ website:
             href: practical_extra.qmd
       - text: "Syllabus"
         href: syllabus.qmd
-      - text: Other resources
+      - text: Autres ressources
         menu:
           - text: Biostats uOttawa
             href: https://biostats-uottawa.github.io/
           - text: Bio4158 (anglais)
-            href: https://biostats-uottawa.github.io/bio4158_cours/
+            href: https://biostats-uottawa.github.io/bio4158_course/
           - text: Bio8940
             href: https://biostats-uottawa.github.io/bio8940_course/
           - text: R-way to hell
