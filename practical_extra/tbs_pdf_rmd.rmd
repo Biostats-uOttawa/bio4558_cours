@@ -1,0 +1,87 @@
+---
+title: "Troubleshooting pdfs in R Markdown"
+author: "Julien Martin"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
+  html_document:
+    highlight: haddock
+    keep_md: yes
+    theme: cerulean
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+---
+
+## The Issue
+
+So you want to make an R Markdown file using pdf rather than the html used by everyone else? It gets a little more complicated at this point but stay with me! Many first time users of R Markdown find that html runs fine but pdfs fail and they get a lot of confusing and worrying error messages that they feel lost debugging. For that reason I've compiled you the following document showing some of the debugging tips created to aid you in your quest.
+
+## Debugging
+
+### Step 1
+
+Check that you are all up-to-date with your R installations and packages.
+
+You can use the code:
+
+```{r eval = FALSE}
+version
+```
+
+to find out what version of R you have installed on your computer. Then you can check your version against the 'news' section at the ['official R website'](https://www.r-project.org/) to see if it matches.
+
+If it doesn't, then you can install the package 'installr' and use the function 'updateR()' to obtain the latest version:
+
+```{r eval = FALSE}
+#install the package
+install.packages('installr')
+
+#load the package
+library(installr)
+
+#update R to latest version
+updateR()
+```
+
+If you already had the latest version, you may want to check that your packages are all updated:
+
+```{r eval = FALSE}
+#Update all packages
+update.packages()
+```
+
+### Step 2
+
+
+RStudio interacts with a different typesetting system called [LaTeX](https://www.latex-project.org/) to produce pdfs. If your computer won't run pdfs you may have to download and install aTeX` on your computer. You have 2 options:
+
+1. install a full blown `LaTeX` distribution. Recommended if you plan to use a lot PDF format and want to move away from default formatting. So use onf of those 3 latex distribution and follow instruction of the website.
+  - [MikTeX](https://miktex.org/download) (windows PC)
+  - [MacTeX](https://tug.org/mactex/mactex-download.html) (Mac)
+  - [TexLive](https://tug.org/texlive/) under linux.
+2. install a small distribution of `LaTeX` which should work for all default options of PDF output in `rmarkdown`. To do that install the R package `tinytex`and follow the instructions on its website https://yihui.org/tinytex/. After installation you will need to run the function `install_tinytex()` to install `LaTeX` for R.
+
+
+```{r eval = FALSE}
+#install the package
+install.packages('tinytex')
+
+#load the package
+library(tinytex)
+
+#Install TeX distribution
+install_tinytex()
+```
+
+### Step 3
+
+Knit your pdf for final success. Make sure the output in the YAML header is set to 'output: pdf_document' and run, run, run this coding experiment :).
+
+## Further Debugging
+
+Still got issues? DOH!-n't worry! Everyone has an individual computer but most people will have an issue that has been encountered before.
+
+You can try going through the ['tinytex debugging page'](https://yihui.org/tinytex/r/) or you can try [stackoverflow](https://stackoverflow.com/) for some answers. Google is also your friend. Search any error messages that crop up and you might find some relevant advice for your issue.

@@ -1,0 +1,25 @@
+
+[L1_html]: slides/L1.html
+[L1_pdf]: slides/L1.pdf
+[L2_html]: slides/L2.html
+[L2_pdf]: slides/L2.pdf
+[L3_html]: slides/L3.html
+[L3_pdf]: slides/L3.pdf
+
+[manual_4158]: https://biostats-uottawa.github.io/bio4158_manual/ 
+[manual_4558]: https://biostats-uottawa.github.io/bio4158_manual/ 
+[manual_8940]: https://biostats-uottawa.github.io/bio8940_manual/
+
+[lab_website]: https://juliengamartin.github.io/
+[moi_uo]: https://www.uottawa.ca/faculty-science/professors/julien-martin
+[moi_github]: https://github.com/juliengamartin
+
+[cran]: https://cloud.r-project.org/
+[rstudio_d]: https://rstudio.com/products/rstudio/download/#download
+[vscode_d]: https://code.visualstudio.com/Download
+
+<!-- extra -->
+[rmark_cs]: https://rstudio.github.io/cheatsheets/rmarkdown.pdf
+[debug_pdf]: practical_extra/tbs_pdf_rmd.html
+[git_cred]: https://usethis.r-lib.org/articles/git-credentials.html
+[happy_git]: https://happygitwithr.com/

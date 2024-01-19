@@ -1,0 +1,136 @@
+---
+title: "Syllabus"
+---
+
+{{< include _links.qmd >}}
+
+# Prérequis
+
+Cours d’introduction en statistique équivalent à MAT 2378 ou MAT 2778.
+
+# Horaire 
+
+{{< include where.qmd >}}
+
+# Organisation
+
+Présentations et discussions en classe sur les analyses statistiques les plus communes, suivies d’exercices pratiques en laboratoire et analyses de données permettant d’appliquer la théorie à des situations réelles.
+
+# Objectif général
+
+Vous aider à acquérir une expérience pratique en analyse statistique pour vous permettre de résoudre les problèmes que vous rencontrerez dans vos travaux de recherche et d’évaluer d’une manière critique les travaux et les arguments des autres.
+
+## Objectifs spécifiques
+
+Après avoir complété ce cours vous deviez pouvoir :
+
+  - Comprendre et appliquer les principes fondamentaux de l’inférence statistique
+  - Comprendre les principes sous-jacents des principaux tests statistiques
+  - Connaître les conditions d’application des principaux tests statistiques, les effets des violations de ces conditions et pouvoir y remédier
+  - Appliquer une méthode de travail appropriée pour l’analyse quantitative de données
+  - Effectuer des analyses statistiques communes avec un logiciel statistique (R)
+  - Interpréter correctement la signification statistique et biologique des résultats des tests statistiques.
+
+# Site web
+
+Le cours est sur brightspace https://uottawa.brightspace.com/d2l/le/content/116649/Home
+Vous y trouverez:
+* Les devoirs à remettre
+* Les versions électroniques (en format PowerPoint) des présentations faites en classe
+* Les liens vers les cours enregistrés sur Zoom
+* Vos notes officieuses pour les devoirs
+* Des liens à des ressources en ligne qui pourraient vous être utiles
+* La version électronique (en format Adobe Acrobat) du manuel de laboratoire.
+
+# Manuels et logiciel
+
+  1. Motulsky, H. J. 2013.  Biostatistiques: Une approche intuitive. 2e Édition. Deboeck. Disponible à la librairie Agora (145 Besserer, entre Dalhousie et Waller), au coût approximatif de 80$.
+  2. Martin J.G.A 2020. Manuel de laboratoire. Biostatistiques appliquées avec R. Disponible sur le site web du cours.
+  3. R, R est un logiciel gratuit pour l’analyse des données et la production de graphiques. Il est disponible pour un vaste éventail de systèmes d’exploitation (UNIX, Windows et MacOS). Pour l’obtenir, choisissez le site CRAN que vous préférez: http://www.r-project.org /.
+
+
+# Séances de laboratoire
+
+Les séances de laboratoires se dérouleront en général en 3 phases :
+
+1. Introduction :
+Messages importants suivis d’une brève présentation des objectifs du laboratoire incluant des instructions plus spécifiques quant aux difficultés particulières.
+2. Exercices de laboratoire :
+Vous répliquerez l’analyse présentée dans le manuel de laboratoire.
+Le but est ici de vous donner accès à des instructions détaillées sur comment effectuer différentes analyses avec R et vous permettre d’en interpréter les résultats.
+3. Devoir :
+Vous commencerez à solutionner le problème d’analyse de donnée hebdomadaire que vous aurez à remettre au début de la prochaine séance de laboratoire.
+
+# Évaluation
+
+- Devoirs / Rapports de labo : 50% (4 meilleurs des 8 à 12.5% chaque)
+- Examen mi-session : 20%
+- Devoir de session : 30%
+
+
+## Devoirs/Rapports de labo
+
+Vous pouvez faire ces devoirs en équipe (maximum de 3) ou individuellement. Si vous choisissez de faire un devoir en équipe, tous les membres de l’équipe recevront la même note.
+Pour chaque devoir, vous aurez à effectuer une analyse statistique et parfois à répondre à une ou des questions.
+Pour les analyses statistiques, vos devoirs devraient contenir:
+
+- Un énoncé de l’hypothèse biologique et de(s) prédiction(s)
+- Un énoncé de(s) hypothèse(s) nulle(s)
+- Une justification du choix de l’analyse
+- Les résultats statistiques, incluant Figures, Tableaux et extraits de R si utiles
+- Un énoncé et un examen des conditions d’application du ou des tests statistiques utilisés pour éprouver vos hypothèses statistiques
+- L’interprétation statistique des résultats
+- L’interprétation biologique des résultats.
+
+Les retards seront pénalisés à raison de 5% immédiatement puis 5% par jour (incluant les samedis et dimanche) avec un maximum de 3 jours.
+Seuls des motifs sérieux, assortis d’une justification approuvée, pourront excuser des retards dans la remise des travaux.
+
+## Examen mi-session
+
+Il y aura un examen de mi-session, à livre ouvert d'une durée de 1h30
+
+Cet examen vise à évaluer votre capacité à planifier une analyse de données pour répondre à une question biologique, à interpréter statistiquement et biologiquement les résultats d’analyses et à expliquer certains des concepts fondamentaux des biostatistiques.
+
+Il n'y aura pas d'examen de remplacement pour l'examen de mi-session. En cas d'absence à l'examen de mi-session, il est possible de changer la pondération du travail de
+session à 50% suite à une discussion avec le professeur.
+
+## Examen final
+
+Un rapport d'analyse (15 pages) sur des données unique pour chaque étudiant sera à remettre à la fin de la session
+
+## Travaux en retard
+Tous travaux doivent être soumises à la date et à l'heure prévues. Toutes les soumissions en retard
+seront immédiatement pénalisés de 5%, avec un supplément de 5% pour chaque jour de retard,
+jusqu'à un maximum de 3 jours, y compris les week-ends. Après trois jours, vous recevra une note
+de zéro (0 %). Aucun retard dans la remise des travaux ne sera toléré, à moins de maladie ou autre
+
+## Les demandes des révisions de note
+Si vous souhaitez demander une révision de note, vous devrez suivre les étapes indiquées dans le
+règlement scolaire 10.3:
+
+1. vérifiez le règlement 10.3 pour déterminer les dates limites pour demander une révision de note
+2. communiquez avec votre professeur.e afin d’obtenir des explications et de comprendre les
+motifs ayant mené à cette note
+3. si vous n’êtes pas satisfait.e des explications fournies, vous pouvez soumettre une demande
+de révision de note au directeur/ à la directrice de l’unité scolaire qui offre le cours. La demande DOIT contenir :
+    a. l’intitulé du cours, le plan de cours, la note obtenue et le nom du professeur ayant attribué la note
+    b. les motifs de la demande de révision 
+    c. la copie corrigée par le professeur, s’il y a lieu, et tout autre document pertinent
+
+# Personnel enseignant
+
+## Professeur
+
+Julien Martin
+
+- Courriel: "julien.martin@uottawa.ca"
+- Bureau: GNN 279
+- Téléphone: 613-562-5800 ext. 2942
+- Heures de bureau: Lundi 14:30-16:30 ou sur rendez-vous.
+
+## Auxilliaire d'enseignement
+
+Thibaut Barra
+
+- Courriel: "tbarr024@uottawa.ca"
+

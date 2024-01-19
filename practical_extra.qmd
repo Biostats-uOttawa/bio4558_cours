@@ -1,0 +1,21 @@
+---
+title: "Information supplémentaires pour les labos"
+---
+
+{{< include _links.qmd >}}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Désolé mais les liens sont pour des sites en anglais seulement
+
+## Introduction à Rmarkdown {#rmarkdown}
+
+* [rmarkdown cheatsheet][rmark_cs]
+* [Troubleshoot PDF in Rmarkdown][debug_pdf]
+
+## Introduction à github
+
+* [Managing git credentials][git_cred]
+* [Happy git with R][happy_git] great book about git and R

@@ -1,0 +1,33 @@
+---
+title: "Données et code"
+format:
+  html:
+    toc: false
+---
+
+```{r}
+#| echo: false
+#| eval: false
+data <- data.frame(
+
+  Files = list.files("data/csv"),
+  link = list.files("data/csv", full.names = TRUE)
+)
+ apply(data,1, function(x) paste0("[",x[2],"](",x[3],")"))
+```
+<!--
+[All data and code files in a nice zip](data/bio4x58_data_code.zip)
+
+## Data for praticals
+
+- [Banta_TotalFruits.csv](data/csv/Banta_TotalFruits.csv)    
+- [dragons.csv](data/csv/dragons.csv) 
+- [unicorns_aggression.csv](data/csv/unicorns_aggression.csv)
+
+
+
+## R code and functions used
+
+- [extra-funs.R](data/code/extra-funs.R)
+
+-->

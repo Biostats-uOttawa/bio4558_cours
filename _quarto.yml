@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: "docs"
+  render:
+    - "*.qmd"
+    - "!slides/"
+  resources:
+    - "slides/"
+    - "data/"
+ 
+website:
+  title: "BIO4558 course"
+  description: "Biostatistiques appliquées avec R"
+  navbar:
+    title: "BIO4558"
+    left:
+      - text: Cours
+        href: lectures.qmd
+      - text: Labo
+        menu:
+          - text: "Manuel"
+            href:  https://biostats-uottawa.github.io/bio4158_manual/
+          - text: "Données"
+            href: dataset.qmd
+          - text: "Info suppl."
+            href: practical_extra.qmd
+      - text: "Syllabus"
+        href: syllabus.qmd
+      - text: Other resources
+        menu:
+          - text: Biostats uOttawa
+            href: https://biostats-uottawa.github.io/
+          - text: Bio4158 (anglais)
+            href: https://biostats-uottawa.github.io/bio4158_cours/
+          - text: Bio8940
+            href: https://biostats-uottawa.github.io/bio8940_course/
+          - text: R-way to hell
+            href: https://biostats-uottawa.github.io/R_way/ 
+          - text: Chemin de l'enf-R
+            href: https://biostats-uottawa.github.io/chemin_R/
+    tools:
+      - icon: envelope
+        href: people.html
+        text: Contact
+      - icon: github
+        menu:
+        - text: Code
+          href: https://github.com/biostats-uOttawa/bio4558_course
+        - text: Problèmes
+          href: https://github.com/Biostats-uOttawa/bio4558_course/issues
+
+format:
+  html:
+    theme: cosmo
+    highlight: kate
+    fig_align: center
+    css: styles.css
+    toc: true
+    lang: fr
+

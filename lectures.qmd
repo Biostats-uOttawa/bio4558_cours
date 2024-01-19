@@ -1,0 +1,18 @@
+---
+title: "Cours"
+---
+
+{{< include _links.qmd >}}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+| Semaine | Sujet | Diapos | Labos |
+|:----:|:---------:|:--------|:-----------|
+| 0 | ... | ... | ... |
+<!--|  1 | Introduction | [html][L1_html] / [PDF][L1_pdf] |
+|  2 | Introduction to Rmarkdown | [html][L2_html] / [PDF][L2_pdf] | [Chapter 2](p_rmarkdown) |
+|  3 | Introduction to github | [html][L3_html] / [PDF][L3_pdf] | [Chapter 3][p_github] |
+|  X | ... | [html][LX_html] / [PDF][LX_pdf] | [Chapter X][p_] | -->
+

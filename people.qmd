@@ -1,0 +1,31 @@
+---
+title: 'Personel'
+format:
+  html:
+    toc: false
+---
+
+{{< include _links.qmd >}}
+
+### Julien Martin
+
+:::: {.columns}
+
+::: {.column width="30%"}
+```{r}
+#| out.width: "150px"
+#| echo: FALSE
+knitr::include_graphics("img/moi.jpg")
+```
+:::
+
+::: {.column width="70%"}
+Julien est professeur associé à l'Université d'Ottawa. Il enseigne et apprend R depuis plus de 15 ans.
+
+- [Page université][moi_uo]
+- [Page labo][lab_website]
+- [GitHub][moi_github]
+
+:::
+
+::::
