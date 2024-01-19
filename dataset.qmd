@@ -13,19 +13,47 @@ data <- data.frame(
   Files = list.files("data/csv"),
   link = list.files("data/csv", full.names = TRUE)
 )
- apply(data,1, function(x) paste0("[",x[2],"](",x[3],")"))
+ matrix(apply(data,1, function(x) paste0("- [",x[1],"](",x[2],")")), ncol =1)
+
+ zip("data/bio4x58_data_code.zip", data$link)
 ```
+
+[Toutes les données dans un fichier zip](data/bio4x58_data_code.zip)
+
+## Données
+
+- [age.csv](data/csv/age.csv)
+- [anc1dat.csv](data/csv/anc1dat.csv)
+- [anc3dat.csv](data/csv/anc3dat.csv)
+- [Biston_pd_1.csv](data/csv/Biston_pd_1.csv)
+- [Biston_pd_2.csv](data/csv/Biston_pd_2.csv)
+- [Biston_student.csv](data/csv/Biston_student.csv)
+- [Dam10dat.csv](data/csv/Dam10dat.csv)
+- [dragons.csv](data/csv/dragons.csv)
+- [ErablesGatineau.csv](data/csv/ErablesGatineau.csv)
+- [hypoxia.uottawa.csv](data/csv/hypoxia.uottawa.csv)
+- [JacobsenDangles_1.csv](data/csv/JacobsenDangles_1.csv)
+- [JacobsenDangles_2.csv](data/csv/JacobsenDangles_2.csv)
+- [loglin.csv](data/csv/loglin.csv)
+- [Mregdat.csv](data/csv/Mregdat.csv)
+- [nematodes.csv](data/csv/nematodes.csv)
+- [nestdat.csv](data/csv/nestdat.csv)
+- [nr2wdat.csv](data/csv/nr2wdat.csv)
+- [salmonella.csv](data/csv/salmonella.csv)
+- [simulies.csv](data/csv/simulies.csv)
+- [simuliidae.csv](data/csv/simuliidae.csv)
+- [skulldat_2020.csv](data/csv/skulldat_2020.csv)
+- [skulldat-rm.csv](data/csv/skulldat-rm.csv)
+- [Stu2mdat.csv](data/csv/Stu2mdat.csv)
+- [Stu2wdat.csv](data/csv/Stu2wdat.csv)
+- [sturgdat.csv](data/csv/sturgdat.csv)
+- [sturgeon.csv](data/csv/sturgeon.csv)
+- [USPopSurvey.csv](data/csv/USPopSurvey.csv)
+- [wmc2dat2.csv](data/csv/wmc2dat2.csv)
+- [wmcdat2.csv](data/csv/wmcdat2.csv)
+
+
 <!--
-[All data and code files in a nice zip](data/bio4x58_data_code.zip)
-
-## Data for praticals
-
-- [Banta_TotalFruits.csv](data/csv/Banta_TotalFruits.csv)    
-- [dragons.csv](data/csv/dragons.csv) 
-- [unicorns_aggression.csv](data/csv/unicorns_aggression.csv)
-
-
-
 ## R code and functions used
 
 - [extra-funs.R](data/code/extra-funs.R)
