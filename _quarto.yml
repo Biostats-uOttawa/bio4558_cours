@@ -35,9 +35,9 @@ website:
           - text: Bio8940
             href: https://biostats-uottawa.github.io/bio8940_course/
           - text: R-way to hell
-            href: https://biostats-uottawa.github.io/intro_r_en/ 
+            href: https://biostats-uottawa.github.io/intro_r_en.html 
           - text: Chemin de l'enf-R
-            href: https://biostats-uottawa.github.io/intro_r_fr/
+            href: https://biostats-uottawa.github.io/intro_r_fr.html
     tools:
       - icon: envelope
         href: people.html
