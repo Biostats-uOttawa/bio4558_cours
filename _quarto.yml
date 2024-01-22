@@ -12,7 +12,7 @@ website:
   title: "BIO4558 course"
   description: "Biostatistiques appliquées avec R"
   navbar:
-    title: "BIO4558"
+    title: "BIO4558: cours"
     left:
       - text: Cours
         href: lectures.qmd
