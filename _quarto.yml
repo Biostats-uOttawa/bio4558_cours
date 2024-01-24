@@ -9,17 +9,17 @@ project:
     - "data/"
  
 website:
-  title: "BIO4558 course"
+  title: "cours BIO4558"
   description: "Biostatistiques appliquées avec R"
   navbar:
     title: "BIO4558: cours"
     left:
-      - text: Cours
+      - text: Diapos
         href: lectures.qmd
       - text: Labo
         menu:
           - text: "Manuel"
-            href:  https://biostats-uottawa.github.io/bio4158_manual/
+            href:  https://biostats-uottawa.github.io/bio4558_manuel/
           - text: "Données"
             href: dataset.qmd
           - text: "Info suppl."
@@ -45,13 +45,15 @@ website:
       - icon: github
         menu:
         - text: Code
-          href: https://github.com/biostats-uOttawa/bio4558_course
+          href: https://github.com/biostats-uOttawa/bio4558_cours
         - text: Problèmes
-          href: https://github.com/Biostats-uOttawa/bio4558_course/issues
+          href: https://github.com/Biostats-uOttawa/bio4558_cours/issues
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: [cosmo, css/theme-dark.scss]
     highlight: kate
     fig_align: center
     css: styles.css

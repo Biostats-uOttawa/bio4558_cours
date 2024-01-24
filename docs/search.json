@@ -2,7 +2,7 @@
   {
     "objectID": "where.html",
     "href": "where.html",
-    "title": "BIO4558 course",
+    "title": "cours BIO4558",
     "section": "",
     "text": "Cours:\n\nLundi 10:00-11:20 à MRT252\nMercredi 08:30-09:50 à MRT 252\n\nLabo:\n\nMercredi 14:30-17:30 à LPR 155"
   },
@@ -58,9 +58,9 @@
   {
     "objectID": "people.html",
     "href": "people.html",
-    "title": "Personel",
+    "title": "Julien Martin",
     "section": "",
-    "text": "Julien Martin\n\n\n\n\n\n\n\n\n\n\n\n\nJulien est professeur associé à l’Université d’Ottawa. Il enseigne et apprend R depuis plus de 15 ans.\n\nPage université\nPage labo\nGitHub"
+    "text": "Julien is an Associate Professor at the University of Ottawa and has been teaching (and learning) R for the last 15 years."
   },
   {
     "objectID": "syllabus.html",
