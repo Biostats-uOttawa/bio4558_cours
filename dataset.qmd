@@ -6,52 +6,31 @@ format:
 ---
 
 ```{r}
-#| echo: false
-#| eval: false
-data <- data.frame(
+#| include: false
 
+source("_yaml_extract.R")
+
+data <- data.frame(
   Files = list.files("data/csv"),
   link = list.files("data/csv", full.names = TRUE)
 )
- matrix(apply(data,1, function(x) paste0("- [",x[1],"](",x[2],")")), ncol =1)
-
- zip("data/bio4x58_data_code.zip", data$link)
+if (file.exists("data/bio4x58_data_code.zip")) {
+  file.remove("data/bio4x58_data_code.zip")
+}
+zip("data/bio4x58_data_code.zip", c("data/csv", "data/R_code"))
 ```
 
-[Toutes les données dans un fichier zip](data/bio4x58_data_code.zip)
 
-## Données
+All data and code files in a nice [**zip file**](data/bio4x58_data_code.zip)
 
-- [age.csv](data/csv/age.csv)
-- [anc1dat.csv](data/csv/anc1dat.csv)
-- [anc3dat.csv](data/csv/anc3dat.csv)
-- [Biston_pd_1.csv](data/csv/Biston_pd_1.csv)
-- [Biston_pd_2.csv](data/csv/Biston_pd_2.csv)
-- [Biston_student.csv](data/csv/Biston_student.csv)
-- [Dam10dat.csv](data/csv/Dam10dat.csv)
-- [dragons.csv](data/csv/dragons.csv)
-- [ErablesGatineau.csv](data/csv/ErablesGatineau.csv)
-- [hypoxia.uottawa.csv](data/csv/hypoxia.uottawa.csv)
-- [JacobsenDangles_1.csv](data/csv/JacobsenDangles_1.csv)
-- [JacobsenDangles_2.csv](data/csv/JacobsenDangles_2.csv)
-- [loglin.csv](data/csv/loglin.csv)
-- [Mregdat.csv](data/csv/Mregdat.csv)
-- [nematodes.csv](data/csv/nematodes.csv)
-- [nestdat.csv](data/csv/nestdat.csv)
-- [nr2wdat.csv](data/csv/nr2wdat.csv)
-- [salmonella.csv](data/csv/salmonella.csv)
-- [simulies.csv](data/csv/simulies.csv)
-- [simuliidae.csv](data/csv/simuliidae.csv)
-- [skulldat_2020.csv](data/csv/skulldat_2020.csv)
-- [skulldat-rm.csv](data/csv/skulldat-rm.csv)
-- [Stu2mdat.csv](data/csv/Stu2mdat.csv)
-- [Stu2wdat.csv](data/csv/Stu2wdat.csv)
-- [sturgdat.csv](data/csv/sturgdat.csv)
-- [sturgeon.csv](data/csv/sturgeon.csv)
-- [USPopSurvey.csv](data/csv/USPopSurvey.csv)
-- [wmc2dat2.csv](data/csv/wmc2dat2.csv)
-- [wmcdat2.csv](data/csv/wmcdat2.csv)
+## Données pour les labo
 
+```{r}
+#| echo: false
+#| output: asis
+apply(data, 1, function(x) paste0("[", x[1], "](", x[2], ")")) %>%
+  ui_list()
+```
 
 <!--
 ## R code and functions used
