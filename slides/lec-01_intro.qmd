@@ -1,0 +1,26 @@
+---
+title: "Biostatisques appliquées avec R"
+subject: "Bio/Bim 4558"
+author: "Julien Martin"
+date: today
+format:
+  revealjs:
+    theme: sky
+    slide-number: true
+    show-slide-number: speaker
+#   chalkboard: true
+#    embed-resources: true
+---
+
+# Getting up
+
+-   Turn off alarm
+-   testint it out
+-   Get out of bed
+
+
+# Going to sleep
+
+
+-   Get in bed
+-   Count sheep

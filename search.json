@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "where.html",
+    "href": "where.html",
+    "title": "cours BIO4558",
+    "section": "",
+    "text": "Cours:\n\nLundi 10:00-11:20 à MRT252\nMercredi 08:30-09:50 à MRT 252\n\nLabo:\n\nMercredi 14:30-17:30 à LPR 155"
+  },
+  {
+    "objectID": "practical_extra.html",
+    "href": "practical_extra.html",
+    "title": "Information supplémentaires pour les labos",
+    "section": "",
+    "text": "Désolé mais les liens sont pour des sites en anglais seulement"
+  },
+  {
+    "objectID": "practical_extra.html#rmarkdown",
+    "href": "practical_extra.html#rmarkdown",
+    "title": "Information supplémentaires pour les labos",
+    "section": "Introduction à Rmarkdown",
+    "text": "Introduction à Rmarkdown\n\nrmarkdown cheatsheet\nTroubleshoot PDF in Rmarkdown"
+  },
+  {
+    "objectID": "practical_extra.html#introduction-à-github",
+    "href": "practical_extra.html#introduction-à-github",
+    "title": "Information supplémentaires pour les labos",
+    "section": "Introduction à github",
+    "text": "Introduction à github\n\nManaging git credentials\nHappy git with R great book about git and R"
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Cours",
+    "section": "",
+    "text": "Semaine\nSujet\nDiapos\nLabos\n\n\n\n\n0\n…\n…\n…"
+  },
+  {
+    "objectID": "dataset.html",
+    "href": "dataset.html",
+    "title": "Données et code",
+    "section": "",
+    "text": "All data and code files in a nice zip file"
+  },
+  {
+    "objectID": "dataset.html#données-pour-les-labo",
+    "href": "dataset.html#données-pour-les-labo",
+    "title": "Données et code",
+    "section": "Données pour les labo",
+    "text": "Données pour les labo\n\nage.csv\nanc1dat.csv\nanc3dat.csv\nBiston_pd_1.csv\nBiston_pd_2.csv\nBiston_student.csv\nBiston.postdoc.csv\nBiston.prof.csv\nDam10dat.csv\ndata\ndragons.csv\nErablesGatineau.csv\nhypoxia.uottawa.csv\nJacobsenDangles_1.csv\nJacobsenDangles_2.csv\nloglin.csv\nMregdat.csv\nnematodes.csv\nnestdat.csv\nnr2wdat.csv\nsalmonella.csv\nsimulies.csv\nsimuliidae.csv\nskulldat_2020.csv\nskulldat-rm.csv\nStu2mdat.csv\nStu2wdat.csv\nsturgdat.csv\nsturgeon.csv\nUSPopSurvey.csv\nwmc2dat2.csv\nwmcdat2.csv"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Biostatistiques appliquées avec R",
+    "section": "",
+    "text": "Cours de biostatistique au baccalauréat à l’Université d’Ottawa enseigné par Julien Martin\nOù et quand:\n\nCours:\n\nLundi 10:00-11:20 à MRT252\nMercredi 08:30-09:50 à MRT 252\n\nLabo:\n\nMercredi 14:30-17:30 à LPR 155\n\n\n\nMatériel de cours\n\nDiapos\nManuel de labo\nSyllabus\n\n\n\nLogiciel\n\n\nVous aurez besoin d’une version récente de R (4.0.0 ou supérieur)\nInstallez R et votre logiciel IDE favouri pour R RStudio ou VSCode"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "Julien Martin",
+    "section": "",
+    "text": "Julien is an Associate Professor at the University of Ottawa and has been teaching (and learning) R for the last 15 years."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Cours d’introduction en statistique équivalent à MAT 2378 ou MAT 2778."
+  },
+  {
+    "objectID": "syllabus.html#objectifs-spécifiques",
+    "href": "syllabus.html#objectifs-spécifiques",
+    "title": "Syllabus",
+    "section": "Objectifs spécifiques",
+    "text": "Objectifs spécifiques\nAprès avoir complété ce cours vous deviez pouvoir :\n\nComprendre et appliquer les principes fondamentaux de l’inférence statistique\nComprendre les principes sous-jacents des principaux tests statistiques\nConnaître les conditions d’application des principaux tests statistiques, les effets des violations de ces conditions et pouvoir y remédier\nAppliquer une méthode de travail appropriée pour l’analyse quantitative de données\nEffectuer des analyses statistiques communes avec un logiciel statistique (R)\nInterpréter correctement la signification statistique et biologique des résultats des tests statistiques."
+  },
+  {
+    "objectID": "syllabus.html#devoirsrapports-de-labo",
+    "href": "syllabus.html#devoirsrapports-de-labo",
+    "title": "Syllabus",
+    "section": "Devoirs/Rapports de labo",
+    "text": "Devoirs/Rapports de labo\nVous pouvez faire ces devoirs en équipe (maximum de 3) ou individuellement. Si vous choisissez de faire un devoir en équipe, tous les membres de l’équipe recevront la même note. Pour chaque devoir, vous aurez à effectuer une analyse statistique et parfois à répondre à une ou des questions. Pour les analyses statistiques, vos devoirs devraient contenir:\n\nUn énoncé de l’hypothèse biologique et de(s) prédiction(s)\nUn énoncé de(s) hypothèse(s) nulle(s)\nUne justification du choix de l’analyse\nLes résultats statistiques, incluant Figures, Tableaux et extraits de R si utiles\nUn énoncé et un examen des conditions d’application du ou des tests statistiques utilisés pour éprouver vos hypothèses statistiques\nL’interprétation statistique des résultats\nL’interprétation biologique des résultats.\n\nLes retards seront pénalisés à raison de 5% immédiatement puis 5% par jour (incluant les samedis et dimanche) avec un maximum de 3 jours. Seuls des motifs sérieux, assortis d’une justification approuvée, pourront excuser des retards dans la remise des travaux."
+  },
+  {
+    "objectID": "syllabus.html#examen-mi-session",
+    "href": "syllabus.html#examen-mi-session",
+    "title": "Syllabus",
+    "section": "Examen mi-session",
+    "text": "Examen mi-session\nIl y aura un examen de mi-session, à livre ouvert d’une durée de 1h30\nCet examen vise à évaluer votre capacité à planifier une analyse de données pour répondre à une question biologique, à interpréter statistiquement et biologiquement les résultats d’analyses et à expliquer certains des concepts fondamentaux des biostatistiques.\nIl n’y aura pas d’examen de remplacement pour l’examen de mi-session. En cas d’absence à l’examen de mi-session, il est possible de changer la pondération du travail de session à 50% suite à une discussion avec le professeur."
+  },
+  {
+    "objectID": "syllabus.html#examen-final",
+    "href": "syllabus.html#examen-final",
+    "title": "Syllabus",
+    "section": "Examen final",
+    "text": "Examen final\nUn rapport d’analyse (15 pages) sur des données unique pour chaque étudiant sera à remettre à la fin de la session"
+  },
+  {
+    "objectID": "syllabus.html#travaux-en-retard",
+    "href": "syllabus.html#travaux-en-retard",
+    "title": "Syllabus",
+    "section": "Travaux en retard",
+    "text": "Travaux en retard\nTous travaux doivent être soumises à la date et à l’heure prévues. Toutes les soumissions en retard seront immédiatement pénalisés de 5%, avec un supplément de 5% pour chaque jour de retard, jusqu’à un maximum de 3 jours, y compris les week-ends. Après trois jours, vous recevra une note de zéro (0 %). Aucun retard dans la remise des travaux ne sera toléré, à moins de maladie ou autre"
+  },
+  {
+    "objectID": "syllabus.html#les-demandes-des-révisions-de-note",
+    "href": "syllabus.html#les-demandes-des-révisions-de-note",
+    "title": "Syllabus",
+    "section": "Les demandes des révisions de note",
+    "text": "Les demandes des révisions de note\nSi vous souhaitez demander une révision de note, vous devrez suivre les étapes indiquées dans le règlement scolaire 10.3:\n\nvérifiez le règlement 10.3 pour déterminer les dates limites pour demander une révision de note\ncommuniquez avec votre professeur.e afin d’obtenir des explications et de comprendre les motifs ayant mené à cette note\nsi vous n’êtes pas satisfait.e des explications fournies, vous pouvez soumettre une demande de révision de note au directeur/ à la directrice de l’unité scolaire qui offre le cours. La demande DOIT contenir :\n\nl’intitulé du cours, le plan de cours, la note obtenue et le nom du professeur ayant attribué la note\nles motifs de la demande de révision\nla copie corrigée par le professeur, s’il y a lieu, et tout autre document pertinent"
+  },
+  {
+    "objectID": "syllabus.html#professeur",
+    "href": "syllabus.html#professeur",
+    "title": "Syllabus",
+    "section": "Professeur",
+    "text": "Professeur\nJulien Martin\n\nCourriel: “julien.martin@uottawa.ca”\nBureau: GNN 279\nTéléphone: 613-562-5800 ext. 2942\nHeures de bureau: Lundi 14:30-16:30 ou sur rendez-vous."
+  },
+  {
+    "objectID": "syllabus.html#auxilliaire-denseignement",
+    "href": "syllabus.html#auxilliaire-denseignement",
+    "title": "Syllabus",
+    "section": "Auxilliaire d’enseignement",
+    "text": "Auxilliaire d’enseignement\nThibaut Barra\n\nCourriel: “tbarr024@uottawa.ca”"
+  }
+]
