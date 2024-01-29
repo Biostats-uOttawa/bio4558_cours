@@ -1,0 +1,62 @@
+schedule:
+  - week: 1
+    topic: ""
+    readings: ""
+  - week: 2
+    topic: "test"
+  - week: 2
+    topic: ""
+    lab: Intro to R
+    lab_link: 01-introR_4.html 
+    readings: ""
+  - week: 3
+    topic: ""
+#    tools: ""
+#    assessment: "Assessment 2 **due Fri 6 Oct 11:55 PM**"
+#    readings: "[Spencer (2022, Feb. 17). Data in Wonderland. Section 1.](https://ssp3nc3r.github.io/data_in_wonderland/)"
+  - week: 4
+#    tools: "`rmarkdown`, `distill`, git & github"
+    topic: ""
+#    readings: "[Quarto Guide](https://quarto.org/docs/guide/)"
+  - week: 5
+    topic: ""
+  - week: 6
+    topic: ""
+  - week: 7
+    assessment: "<b>Mid-term (in class)</b>" 
+  - week: 8
+    topic: ""
+  - week: 9
+  - week: 10
+  - week: 11
+#    lecturer: Kate
+#    topic: Guest lecture
+#    tools: ""
+#    readings: ""
+  - week: 12
+    topic: ""
+  - assessment: "<b>Final exam</b>"
+
+team:
+  - name: Julien Martin
+    role: lecturer
+    consult: Wed 1100-1200 (in-person & online)
+  - name: Igor Tex
+    role: TA
+    consult: Fri 5.00-5.45pm (in-person)
+  - name: Bob Hêtte
+    role: TA
+    consult: Thu 6.00-6.45pm (in-person)
+
+timetable:
+  - class: Lecture
+    when:
+      - Monday 1300-1420
+#      - Wednesday 1130-1300
+    where: XXX
+  - class: Lecture
+    when: Wednesday 1130-1300
+    where: XXX
+  - class: Practical
+    when: Wednesday 1430-1720
+    where: XXX
