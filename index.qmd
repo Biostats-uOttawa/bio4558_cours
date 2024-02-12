@@ -38,7 +38,7 @@ Où et quand:
 <!-- * Install the following `R` packages: `tidyverse`, `sf`, `emo`, `janitor`, `palmerpenguins`, `usethis` and `lubridate.` You can install them all at once by running the following code in the `R` command line: -->
 
 ```{r eval = FALSE, echo = FALSE}
-install.packages(c("tidyverse", "sf", "emo", "janitor", "palmerpenguins", "usethis", "lubridate"))
+install.packages(c("tidyverse", "sf", "emoji", "janitor", "palmerpenguins", "usethis", "lubridate"))
 ```
 <!--
 #### Corrections {-}
