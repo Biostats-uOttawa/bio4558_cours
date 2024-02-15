@@ -18,3 +18,4 @@ about:
 
 Julien is an Associate Professor at the University of Ottawa and has been teaching (and learning) R for the last 15 years. 
 
+I created the websites using `Quarto`, `R`, `revealjs`, `mermaid.js` and `graphViz`. I developed the theme for the slides based on the [xaringan blackboard theme](https://github.com/juancarloscastillo/xaringan-themes-blackboard).
