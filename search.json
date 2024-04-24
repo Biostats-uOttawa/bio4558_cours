@@ -1,66 +1,10 @@
 [
   {
-    "objectID": "where.html",
-    "href": "where.html",
-    "title": "cours BIO4558",
-    "section": "",
-    "text": "Cours:\n\nLundi 10:00-11:20 à MRT252\nMercredi 08:30-09:50 à MRT 252\n\nLabo:\n\nMercredi 14:30-17:30 à LPR 155"
-  },
-  {
-    "objectID": "practical_extra.html",
-    "href": "practical_extra.html",
-    "title": "Information supplémentaires pour les labos",
-    "section": "",
-    "text": "Désolé mais les liens sont pour des sites en anglais seulement"
-  },
-  {
-    "objectID": "practical_extra.html#rmarkdown",
-    "href": "practical_extra.html#rmarkdown",
-    "title": "Information supplémentaires pour les labos",
-    "section": "Introduction à Rmarkdown",
-    "text": "Introduction à Rmarkdown\n\nrmarkdown cheatsheet\nTroubleshoot PDF in Rmarkdown"
-  },
-  {
-    "objectID": "practical_extra.html#introduction-à-github",
-    "href": "practical_extra.html#introduction-à-github",
-    "title": "Information supplémentaires pour les labos",
-    "section": "Introduction à github",
-    "text": "Introduction à github\n\nManaging git credentials\nHappy git with R great book about git and R"
-  },
-  {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "Cours",
-    "section": "",
-    "text": "Semaine\nSujet\nDiapos\nLabos\n\n\n\n\n0\n…\n…\n…"
-  },
-  {
-    "objectID": "dataset.html",
-    "href": "dataset.html",
-    "title": "Données et code",
-    "section": "",
-    "text": "All data and code files in a nice zip file"
-  },
-  {
-    "objectID": "dataset.html#données-pour-les-labo",
-    "href": "dataset.html#données-pour-les-labo",
-    "title": "Données et code",
-    "section": "Données pour les labo",
-    "text": "Données pour les labo\n\nage.csv\nanc1dat.csv\nanc3dat.csv\nBiston_pd_1.csv\nBiston_pd_2.csv\nBiston_student.csv\nBiston.postdoc.csv\nBiston.prof.csv\nDam10dat.csv\ndata\ndragons.csv\nErablesGatineau.csv\nhypoxia.uottawa.csv\nJacobsenDangles_1.csv\nJacobsenDangles_2.csv\nloglin.csv\nMregdat.csv\nnematodes.csv\nnestdat.csv\nnr2wdat.csv\nsalmonella.csv\nsimulies.csv\nsimuliidae.csv\nskulldat_2020.csv\nskulldat-rm.csv\nStu2mdat.csv\nStu2wdat.csv\nsturgdat.csv\nsturgeon.csv\nUSPopSurvey.csv\nwmc2dat2.csv\nwmcdat2.csv"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Biostatistiques appliquées avec R",
+    "title": "Biostatistiques appliquées avec R ",
     "section": "",
     "text": "Cours de biostatistique au baccalauréat à l’Université d’Ottawa enseigné par Julien Martin\nOù et quand:\n\nCours:\n\nLundi 10:00-11:20 à MRT252\nMercredi 08:30-09:50 à MRT 252\n\nLabo:\n\nMercredi 14:30-17:30 à LPR 155\n\n\n\nMatériel de cours\n\nDiapos\nManuel de labo\nSyllabus\n\n\n\nLogiciel\n\n\nVous aurez besoin d’une version récente de R (4.0.0 ou supérieur)\nInstallez R et votre logiciel IDE favouri pour R RStudio ou VSCode"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "Julien Martin",
-    "section": "",
-    "text": "Julien is an Associate Professor at the University of Ottawa and has been teaching (and learning) R for the last 15 years.\nI created the websites using Quarto, R, revealjs, mermaid.js and graphViz. I developed the theme for the slides based on the xaringan blackboard theme."
   },
   {
     "objectID": "syllabus.html",
@@ -124,5 +68,61 @@
     "title": "Syllabus",
     "section": "Auxilliaire d’enseignement",
     "text": "Auxilliaire d’enseignement\nThibaut Barra\n\nCourriel: “tbarr024@uottawa.ca”"
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Cours",
+    "section": "",
+    "text": "Semaine\nSujet\nDiapos\nLabos\n\n\n\n\n0\n…\n…\n…"
+  },
+  {
+    "objectID": "where.html",
+    "href": "where.html",
+    "title": "cours BIO4558",
+    "section": "",
+    "text": "Cours:\n\nLundi 10:00-11:20 à MRT252\nMercredi 08:30-09:50 à MRT 252\n\nLabo:\n\nMercredi 14:30-17:30 à LPR 155"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "Julien Martin",
+    "section": "",
+    "text": "Julien is an Associate Professor at the University of Ottawa and has been teaching (and learning) R for the last 15 years.\nI created the websites using Quarto, R, revealjs, mermaid.js and graphViz. I developed the theme for the slides based on the xaringan blackboard theme."
+  },
+  {
+    "objectID": "practical_extra.html",
+    "href": "practical_extra.html",
+    "title": "Information supplémentaires pour les labos",
+    "section": "",
+    "text": "Désolé mais les liens sont pour des sites en anglais seulement"
+  },
+  {
+    "objectID": "practical_extra.html#rmarkdown",
+    "href": "practical_extra.html#rmarkdown",
+    "title": "Information supplémentaires pour les labos",
+    "section": "Introduction à Rmarkdown",
+    "text": "Introduction à Rmarkdown\n\nrmarkdown cheatsheet\nTroubleshoot PDF in Rmarkdown"
+  },
+  {
+    "objectID": "practical_extra.html#introduction-à-github",
+    "href": "practical_extra.html#introduction-à-github",
+    "title": "Information supplémentaires pour les labos",
+    "section": "Introduction à github",
+    "text": "Introduction à github\n\nManaging git credentials\nHappy git with R great book about git and R"
+  },
+  {
+    "objectID": "dataset.html",
+    "href": "dataset.html",
+    "title": "Données et code",
+    "section": "",
+    "text": "All data and code files in a nice zip file"
+  },
+  {
+    "objectID": "dataset.html#données-pour-les-labo",
+    "href": "dataset.html#données-pour-les-labo",
+    "title": "Données et code",
+    "section": "Données pour les labo",
+    "text": "Données pour les labo\n\nage.csv\nanc1dat.csv\nanc3dat.csv\nBiston_pd_1.csv\nBiston_pd_2.csv\nBiston_student.csv\nBiston.postdoc.csv\nBiston.prof.csv\nDam10dat.csv\ndata\ndragons.csv\nErablesGatineau.csv\nhypoxia.uottawa.csv\nJacobsenDangles_1.csv\nJacobsenDangles_2.csv\nloglin.csv\nMregdat.csv\nnematodes.csv\nnestdat.csv\nnr2wdat.csv\nsalmonella.csv\nsimulies.csv\nsimuliidae.csv\nskulldat_2020.csv\nskulldat-rm.csv\nStu2mdat.csv\nStu2wdat.csv\nsturgdat.csv\nsturgeon.csv\nUSPopSurvey.csv\nwmc2dat2.csv\nwmcdat2.csv"
   }
 ]
