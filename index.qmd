@@ -1,6 +1,6 @@
 ---
 title: |
-  Biostatistiques appliquées avec R ![](img/bio4x58_logo_hex.png){width="150"}
+  Biostatistiques appliquées avec R
 format:
   html:
     toc: false
