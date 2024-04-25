@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Biostatistiques appliquées avec R ",
+    "title": "Biostatistiques appliquées avec R",
     "section": "",
     "text": "Cours de biostatistique au baccalauréat à l’Université d’Ottawa enseigné par Julien Martin\nOù et quand:\n\nCours:\n\nLundi 10:00-11:20 à MRT252\nMercredi 08:30-09:50 à MRT 252\n\nLabo:\n\nMercredi 14:30-17:30 à LPR 155\n\n\n\nMatériel de cours\n\nDiapos\nManuel de labo\nSyllabus\n\n\n\nLogiciel\n\n\nVous aurez besoin d’une version récente de R (4.0.0 ou supérieur)\nInstallez R et votre logiciel IDE favouri pour R RStudio ou VSCode"
   },
