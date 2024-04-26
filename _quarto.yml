@@ -12,8 +12,9 @@ website:
   google-analytics: G-6LLMGL3T2Q
   title: "cours BIO4558"
   description: "Biostatistiques appliquées avec R"
+  favicon: img/logo_hex.png
   navbar:
-    title: "BIO4558: cours"
+    title: '![](img/logo_hex.png){width="50px"} BIO4558: cours'
     left:
       - text: Diapos
         href: lectures.qmd
